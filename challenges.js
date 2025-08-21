@@ -14,7 +14,7 @@ const CHALLENGES = {
     ],
     
     intensa: [
-       "BELLA lambe e beija o pau de DANI por cima da cueca 😏👅",
+        "BELLA lambe e beija o pau de DANI por cima da cueca 😏👅",
     "DANI chupa o pescoço de BELLA até deixá-la arrepiada 💋🔥",
     "BELLA senta no colo de DANI e esfrega a buceta contra ele 🔥🍑",
     "DANI beija e morde os seios de BELLA 😈🍒",
@@ -30,27 +30,28 @@ const CHALLENGES = {
     "BELLA senta no rosto de DANI por alguns segundos 😈🍑",
     "DANI segura BELLA de quatro, encosta o pau nela, mas não coloca 😏🍆",
         // Desafios com lubrificante (vão para o final do baralho)
-         "BELLA usa o lubrificante de cereja e lambe o pau de DANI 🍒👅🔥",
+        "BELLA usa o lubrificante de cereja e lambe o pau de DANI 🍒👅🔥",
     "DANI espalha lubrificante quente na buceta de BELLA, mas não penetra 🖐️🔥",
     "BELLA passa lubrificante frio no pau de DANI e provoca com a mão ❄️🍆",
     "DANI espalha lubrificante de cereja nos seios de BELLA e lambe 🍒🔥"
     ],
     
-    durante: [
-    "BELLA monta em DANI, mas controla as colocações para deixá-lo no limite 🔥🍑",
+    "durante-ato": [
+        "BELLA monta em DANI, mas controla as colocações para deixá-lo no limite 🔥🍑",
     "DANI coloca só a cabecinha do pau na buceta de BELLA, tirando em seguida 😏🍆",
     "BELLA cavalga DANI bem devagar, parando sempre que ele pedir mais 😈🔥",
     "DANI mete forte algumas vezes e para de repente, segurando BELLA 😏💥",
     "BELLA cavalga de costas, mas gira o quadril provocando devagar 🔥🍑",
     "DANI pega BELLA de quatro, mete bem fundo e para de surpresa 😈🍆",
     "BELLA suga o pau de DANI entre as colocações e para sorrindo 😏👅",
-    "DANI passa lubrificante frio no pau e enfia devagar na buceta ❄️🔥",
+        // Desafios com lubrificante
+        "DANI passa lubrificante frio no pau e enfia devagar na buceta ❄️🔥",
     "BELLA espalha lubrificante quente no pau e cavalga lentamente 🔥🍆",
     "DANI coloca lubrificante de cereja na buceta e mete devagar 🍒🔥"
     ],
     
     resistencia: [
-      "BELLA lambe o pau de DANI até a base, mas para rindo sem deixá-lo gozar 👅🔥",
+        "BELLA lambe o pau de DANI até a base, mas para rindo sem deixá-lo gozar 👅🔥",
     "DANI suga o grelo de BELLA até ela estremecer, mas para antes do orgasmo 😈🍑",
     "BELLA cavalga DANI por alguns segundos e sai de cima sorrindo 😏🍑",
     "DANI mete devagar, mas tira de repente e segura o pau 😈🔥",
@@ -60,8 +61,8 @@ const CHALLENGES = {
     "DANI mete forte 3 vezes e para de repente, segurando BELLA 😈🔥",
     "BELLA beija e morde o pau de DANI sem chupá-lo todo 😏👄",
     "DANI passa lubrificante frio na buceta de BELLA e sopra devagar ❄️🔥"
-    ]
-};
+  ]
+}:
 
 // Função para embaralhar array (algoritmo Fisher-Yates)
 function shuffleArray(array) {
