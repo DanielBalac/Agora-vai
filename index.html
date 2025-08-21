@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 Cartas Bella & Dani 🔥 – Jogo de Desafios Sensuais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Página Inicial -->
+    <div id="home-page" class="page active">
+        <div class="container">
+            <h1 class="main-title">🔥 Cartas Bella & Dani 🔥</h1>
+            <h2 class="subtitle">Jogo de Desafios Sensuais</h2>
+            
+            <div class="mode-buttons">
+                <button class="mode-btn" onclick="startMode('leve')">
+                    <span class="mode-icon">💋</span>
+                    <span class="mode-text">Modo Leve</span>
+                </button>
+                
+                <button class="mode-btn" onclick="startMode('intensa')">
+                    <span class="mode-icon">🔥</span>
+                    <span class="mode-text">Modo Intensa</span>
+                </button>
+                
+                <button class="mode-btn" onclick="startMode('extrema')">
+                    <span class="mode-icon">😈</span>
+                    <span class="mode-text">Modo Extrema</span>
+                </button>
+                
+                <button class="mode-btn" onclick="startMode('durante-ato')">
+                    <span class="mode-icon">🌶️</span>
+                    <span class="mode-text">Modo Durante o Ato</span>
+                </button>
+                
+                <button class="mode-btn" onclick="startMode('resistencia')">
+                    <span class="mode-icon">🔥🔥</span>
+                    <span class="mode-text">Modo Resistência</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Página do Jogo -->
+    <div id="game-page" class="page">
+        <div class="container">
+            <!-- Indicador de Nível (apenas para modos normais) -->
+            <div id="level-indicator" class="level-indicator">
+                <div class="level-info">
+                    <span id="current-mode">Modo Leve</span>
+                    <span id="level-progress">Bella: 0/2 | Dani: 0/2</span>
+                </div>
+                <div class="level-bar">
+                    <div id="level-bar-fill" class="level-bar-fill"></div>
+                </div>
+            </div>
+
+            <!-- Área da Carta -->
+            <div id="card-area" class="card-area">
+                <div id="card-content" class="card-content">
+                    <p id="challenge-text">Clique em "Sortear Carta" para começar!</p>
+                </div>
+            </div>
+
+            <!-- Botões de Ação -->
+            <div class="action-buttons">
+                <!-- Botões para modos normais -->
+                <div id="normal-buttons" class="button-group">
+                    <button id="draw-card-btn" class="action-btn primary" onclick="drawCard()">
+                        🎲 Sortear Carta
+                    </button>
+                    <button id="next-card-btn" class="action-btn secondary" onclick="nextCard()" style="display: none;">
+                        ➡️ Próxima Carta
+                    </button>
+                </div>
+
+                <!-- Botões para modo resistência -->
+                <div id="resistance-buttons" class="button-group" style="display: none;">
+                    <button class="action-btn primary" onclick="drawCard('bella')">
+                        🎲 Sortear Bella
+                    </button>
+                    <button class="action-btn primary" onclick="drawCard('dani')">
+                        🎲 Sortear Dani
+                    </button>
+                    <button id="next-card-resistance-btn" class="action-btn secondary" onclick="nextCard()" style="display: none;">
+                        ➡️ Próxima Carta
+                    </button>
+                </div>
+
+                <!-- Botão Voltar -->
+                <button class="action-btn back" onclick="goHome()">
+                    🏠 Voltar ao Menu
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="challenges.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
