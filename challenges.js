@@ -50,6 +50,7 @@ const CHALLENGES = {
     ],
     
     resistencia: [
+        // Normais
         "BELLA lambe o pau de DANI até a base, mas para rindo sem deixá-lo gozar 👅🔥",
         "DANI suga o grelo de BELLA até ela estremecer, mas para antes do orgasmo 😈🍑",
         "BELLA cavalga DANI por alguns segundos e sai de cima sorrindo 😏🍑",
@@ -59,7 +60,37 @@ const CHALLENGES = {
         "BELLA engole o pau de DANI todo e tira de repente, olhando nos olhos 😏🍆",
         "DANI mete forte 3 vezes e para de repente, segurando BELLA 😈🔥",
         "BELLA beija e morde o pau de DANI sem chupá-lo todo 😏👄",
-        "DANI passa lubrificante frio na buceta de BELLA e sopra devagar ❄️🔥"
+        "BELLA coloca o pau de DANI entre os seios e esfrega 😏🔥",
+        "BELLA esfrega a buceta molhada na barriga de DANI sem deixar descer mais 💦👀",
+        "DANI suga o pescoço de BELLA com força, deixando marca 💋🔥",
+        "BELLA desliza a buceta sobre o pau de DANI só até a ponta e sobe de novo 🐎🍆⛔",
+        "DANI dá tapas leves na bunda de BELLA enquanto ela se afasta 🍑✋🔥",
+        "DANI chupa os dedos de BELLA como se fossem o clitóris 😏👅",
+        "BELLA senta sobre o pau de DANI de costas, mas só deixa encostar e não entrar ⛔🔥",
+        "DANI lambe por dentro da coxa de BELLA, mas para antes de chegar na buceta 👀💦",
+        "BELLA esfrega a boca do pau de DANI no clitóris sem deixar deslizar pra dentro 😈🍆",
+        "DANI coloca só dois dedos na buceta de BELLA, mexe devagar e tira rápido ✋🔥⛔",
+        "BELLA suga forte os lábios de DANI e morde, deixando ele sem reação 💋😏",
+        "DANI encosta a ponta do pau molhado na boca de BELLA, mas ela não pode chupar 👄🍆⛔",
+        "DANI chupa o clitóris de BELLA só por 5 segundos e para bruscamente ⛔👅",
+        "BELLA faz carinho no pau de DANI apenas com as unhas bem de leve 😏🍆",
+        "DANI abre as pernas de BELLA e fica só soprando ar frio ❄️ sobre a buceta",
+        "BELLA coloca o pau de DANI na boca, mas tira logo antes de chupar 👄🔥⛔",
+        "DANI morde a bunda de BELLA e segura firme 🍑😈",
+        "BELLA sobe e desce só com a bunda encostando, sem deixar o pau entrar 🐎⛔🔥",
+        "DANI dá beijos molhados por toda a barriga de BELLA descendo, mas para antes de chegar 😏💦",
+        "BELLA faz movimentos de boquete com a boca sem encostar no pau 👄🍆😈",
+        "DANI belisca o clitóris de BELLA de leve e para de repente ✋🔥⛔",
+        "DANI chupa e morde o mamilo de BELLA até ela gemer 😈💋",
+        "DANI faz movimentos de penetração com os dedos, mas para sempre antes de acelerar ✋🍑",
+        "DANI pressiona o pau contra a buceta de BELLA, mas não coloca dentro ⛔🍆",
+
+        // Com lubrificante
+        "DANI passa lubrificante frio na buceta de BELLA e sopra devagar ❄️🔥",
+        "BELLA passa o lubrificante frio ❄️ no pau de DANI só com a ponta dos dedos, lentamente.",
+        "BELLA coloca lubrificante de cereja 🍒 na glande de DANI e só dá uma lambida rápida.",
+        "BELLA esfrega a buceta no pau de DANI coberto de lubrificante quente 🔥 sem deixar entrar.",
+        "BELLA coloca lubrificante de cereja 🍒 na ponta do pau de DANI e espalha só com a língua 👅⛔"
     ]
 };
 
@@ -79,7 +110,7 @@ function separateChallenges(challenges) {
     const withLube = [];
     
     challenges.forEach(challenge => {
-        if (challenge.includes('lubrificante')) {
+        if (challenge.includes('lubrificante') || challenge.includes('cereja')) {
             withLube.push(challenge);
         } else {
             normal.push(challenge);
